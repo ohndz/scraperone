@@ -5,12 +5,14 @@ from scrapers.quotes_js import run_quotes_js
 from scrapers.tripadvisor  import run_tripadvisor
 from scrapers.ml_televisores import run_ml_televisores
 from scrapers.superpages_labs import run_superpages_labs
+from scrapers.superpages_psicologos import run_superpages_psicologos
 
 SCRAPERS = {
     "quotes": run_quotes,
     "quotes_js": run_quotes_js,
     "tripadvisor": run_tripadvisor,
     "superpages_labs": run_superpages_labs,
+    "superpages_psicologos": run_superpages_psicologos,
     "ml_televisores":run_ml_televisores
     # "books": run_books,
 }
