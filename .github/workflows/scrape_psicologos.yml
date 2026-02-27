@@ -29,7 +29,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          python main.py --scraper superpages_psicologos --format csv --limit 0
+          python main.py --scraper superpages_psicologos --format csv --limit 1
 
       - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
